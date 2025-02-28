@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1.5rem;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.app {
+    flex-grow: 1;
+
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.from{
+    margin-bottom: 1rem;
+}
+.to{
+    margin-bottom: 2rem;;
+}
+
+button {
+    cursor: pointer;
+}
+
+footer,
+header {
+    text-align: center;
+    background-color: rgb(18, 18, 71);
+    color: aliceblue;
+    padding: .35rem;
+}

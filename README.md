@@ -1,0 +1,1 @@
+Currency converter app is a project that can be used in real world for converting currency of one country to another's. The concepts used in the project are fetch_api, async-await, promises and other basics of HTML, CSS and Javascript.

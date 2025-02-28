@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- https://flagsapi.com/BE/flat/64.png -->
+
+    <header>
+        <h2>Welome to Currency Converter App</h2>
+    </header>
+
+    <main class="app">
+
+        <form class="form">
+
+            <div class="from">From
+                <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                <select name="countriesFrom" id="from">
+                </select>
+            </div>
+
+            <div class="to">To
+                <img src="https://flagsapi.com/NP/flat/64.png" alt="">
+                <select name="countriesTo" id="to">
+                </select>
+            </div>
+
+            <label for="amount">Enter amount</label>
+            <input type="text" id="amount">
+
+            <button id="submit" type="submit">Get Result</button>
+
+        </form>
+
+        <div class="output">
+            <p>Exchange Rate: <span id="exRate"></span></p>
+            <p>Result: <span id="result"></span></p>
+        </div>
+    </main>
+
+    <footer>
+        Copyright &copy; <span>YEAR</span>
+    </footer>
+
+</body>
+<script src="main.js"></script>
+
+</html>
