@@ -9,8 +9,6 @@
 </head>
 
 <body>
-    <!-- https://flagsapi.com/BE/flat/64.png -->
-
     <header>
         <h2>Welome to Currency Converter App</h2>
     </header>
@@ -18,24 +16,26 @@
     <main class="app">
 
         <form class="form">
+            <div class="countries">
+                <section class="from">
+                    <label for="from">From</label>
+                    <select name="countriesFrom" id="from">
+                    </select>
+                    <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                </section>
 
-            <div class="from">From
-                <img src="https://flagsapi.com/US/flat/64.png" alt="">
-                <select name="countriesFrom" id="from">
-                </select>
+                <section class="to">
+                    <span>To</span>
+                    <select name="countriesTo" id="to">
+                    </select>
+                    <img src="https://flagsapi.com/NP/flat/64.png" alt="">
+                </section>
             </div>
 
-            <div class="to">To
-                <img src="https://flagsapi.com/NP/flat/64.png" alt="">
-                <select name="countriesTo" id="to">
-                </select>
-            </div>
-
-            <label for="amount">Enter amount</label>
-            <input type="text" id="amount">
+            <label for="amount">Enter amount:</label>
+            <input type="text" id="amount" autofocus>
 
             <button id="submit" type="submit">Get Result</button>
-
         </form>
 
         <div class="output">

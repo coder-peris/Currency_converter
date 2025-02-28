@@ -160,8 +160,6 @@ const countryList = {
     ZWD: "ZW"
 }
 
-
-
 //Adding each country in both dropdowns
 const select1 = document.querySelector("#from");
 const select2 = document.querySelector("#to");
@@ -179,12 +177,10 @@ for (x in countryList) {
 
     if (countryList[x] == "US") {
         select1.value = x;
-        // newCountry1.selected = "selected";
     }
 
     if (countryList[x] == "NP") {
         select2.value = x;
-        // newCountry2.selected="selected";
     }
 }
 
@@ -210,7 +206,7 @@ const BASE_URL = "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/
 const submitButton = document.querySelector("#submit");
 const output1 = document.querySelector("#exRate");
 const output2 = document.querySelector("#result");
-// tempElements.style.display = "none";
+
 const inputTag = document.querySelector("input");
 
 submitButton.addEventListener("click", async (e) => {
