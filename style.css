@@ -47,11 +47,12 @@ section {
 
 input {
     height: 1.2rem;
-    min-width: 400px;
+    width: 400px;
     font-size: .9rem;
     margin: .3rem 0;
     border-radius: 5px;
     padding-left: .15rem;
+    max-width: 85%;
 }
 
 button {
@@ -85,20 +86,19 @@ button {
 
 .output span {
     border: 1px solid gray;
+    padding: .1rem;
+    border-radius: 5px;
+    display: inline-block;
 }
 
 #exRate {
     background-color: rgb(224, 235, 163);
     color: rgb(71, 143, 206);
-    border-radius: 5px;
-    padding: .1rem;
 }
 
 #result {
     background-color: green;
     color: aliceblue;
-    border-radius: 5px;
-    padding: .1rem;
 }
 
 
